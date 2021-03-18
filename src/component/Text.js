@@ -9,7 +9,10 @@ export default function Text(props) {
           return (
             <span
               className="hashtag"
-              onClick={() => props.onHashTagClick(word)}
+              onClick={(e) => {
+                e.stopPropagation();
+                props.onHashTagClick(word);
+              }}
             >
               {word}
             </span>

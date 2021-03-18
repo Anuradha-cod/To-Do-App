@@ -1,5 +1,10 @@
 .App {
+  /* text-align: center; */
+}
+.AppToDo {
   text-align: center;
+  font-size: 40px;
+  color: #61dafb;
 }
 
 .App-logo {
@@ -35,4 +40,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+.TodoApp {
+  /* display: flex; */
+  /* text-align: center; */
+  margin: 60px 150px;
+}
+.TodoInput {
+  margin: 10px;
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+}
+.TodoSubmit {
+  display: flex;
+}
+.TodoSubmite {
+  width: 150px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #293235;
+  background-color: #afd6e0;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.TodoReset {
+  width: 150px;
+  height: 35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #293235;
+  background-color: #e4834a;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.active {
+  background-color: #afd6e0;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.active:hover {
+  background-color: #b2e2ee;
+}
+.completed {
+  background-color: #70bccf;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.hashtag {
+  color: white;
+  cursor: pointer;
+  /* background-color: coral; */
 }
